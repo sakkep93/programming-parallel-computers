@@ -1,0 +1,14 @@
+#!/bin/sh
+
+for a in "g++-10" "g++-9" "g++-8" "g++-7" "g++-6" "g++-5" "g++"; do
+    if "$a" "-dumpversion" > /dev/null 2>&1; then
+        case "$($a -dumpversion)" in
+        5|5.*|6|6.*|7|7.*|8|8.*|9|9.*|10|10.*)
+            echo "$a"
+            exit 0
+            ;;
+        esac
+    fi
+done
+echo "could not find a suitable C++ compiler" >&2
+exit 1

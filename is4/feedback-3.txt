@@ -1,0 +1,9 @@
+0
+
+Nice work!
+
+You could do less arithmetic inside the innermost loop.
+
+--
+Grading by:
+jukka

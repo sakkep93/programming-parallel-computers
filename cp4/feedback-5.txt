@@ -1,0 +1,10 @@
+0
+
+Looks good!
+
+In this task you are supposed to create a baseline implementation so that you
+can compare it with the more optimized implementation in CP5.
+
+--
+Grading by:
+henkkuli

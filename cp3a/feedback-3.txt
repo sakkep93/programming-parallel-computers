@@ -1,0 +1,10 @@
+0
+
+Looks good!
+
+You could use ideas similar to Chapter 2 part V5 to further reduce memory lookups,
+or ideas discussed in Chapter 2 part V7 to make the memory lookups more cache-friendly?
+
+--
+Grading by:
+jukka
